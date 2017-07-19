@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>netWork</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/list.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="nav-header">
+        <div class="col-lg-3">
+          <span id="logo">微云</span>
+          <span class="fileTask"></span>
+          <input type="text" placeholder="请输入内容" class="search"></input>
+          <span class="searchBtn"></span>
+          <div class="layoutSwitch">
+            <span class="icon active"></span>
+            <span class="List"></span>
+          </div>
+          <div class="sort">
+            <span class="sort-l active"></span>
+            <span class="sort-r"></span>
+          </div>
+        </div>
+        <div class="showIco">
+          <div class="addbtn">
+            添加
+          </div>
+          <div class="style">
+            <div class="box"></div>
+            <div class="icons">
+              <span class="file"></span>
+              <p>上传文件</p>
+            </div>
+            <div class="icons">
+              <span class="floders"></span>
+              <p>移动文件夹</p>
+            </div>
+            <div class="icons">
+              <span class="load"></span>
+              <p>删除</p>
+            </div>
+            <div class="icons">
+              <span class="new"></span>
+              <p>新建文件夹</p>
+            </div>
+            <div class="icons">
+              <span class="net"></span>
+              <p>重命名</p>
+            </div>
+          </div>
+        </div>
+        <div class="tip"></div>
+      </div>
+    </div>
+    <div class="row content-body">
+      <div class="row content-body-inner">
+        <div class="weiyun-list-tree">
+
+        </div>
+        <div class="right-files">
+          <div class="path">
+            <div class="checkedAll">
+              <input class="checked" type="checkbox"></input>
+            </div>
+            <div class="paths">
+              <div class="parent-path">|  微云</div>
+              <div class="paths-child">
+                <!-- <span>文件</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="files">
+             <div class="folder active">
+              <span class="folder-img"></span>
+              <span class="folder-box"></span>
+              <span class="folder-name active">新建文件夹</span>
+              <input type="text" class="changeName"/>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="move-list-wrap">
+      <div class="move-list-panel">
+        <div class="move-list-header">
+          <h3>移动到</h3>
+          <span>X</span>
+        </div>
+        <div class="move-list-menu-wrap">
+          <div class="move-list-menu">
+            
+          </div>
+        </div>
+        <div class="move-list-btns">
+          <button class="sure">确定</button>
+          <button class="cancel">取消</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/data.js"></script>
+<script src="js/tool.js"></script>
+<script src="js/creatHtml.js"></script>
+<script src="js/view.js"></script>
+<script src="js/main.js"></script>
+</html>
